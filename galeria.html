@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hostel Lacar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -27,20 +29,42 @@
     <hr>
     <main>
             <h3>GALERÍA</h3>
-                <table>
-                    <th>
-                        <tr><img class="foto" src="./Fotos/Hostel-1.jpg" alt="Hostel"></tr>
-                        <tr><img class="foto" src="./Fotos/Hostel-8.jpg" alt="Hostel"></tr>
-                        <tr><img class="foto" src="./Fotos/Hostel-9.jpg" alt="Hostel"></tr>
-                        <tr><img class="foto" src="./Fotos/Privada-1.jpg" alt="Hostel"></tr>
-                    </th>
-                    <th>
-                        <tr><img class="foto" src="./Fotos/Privada-3.jpg" alt="Hostel"></tr>
-                        <tr><img class="foto" src="./Fotos/Cabanas1.jpg" alt="Hostel"></tr>
-                        <tr><img class="foto" src="./Fotos/Cabanas3.jpg" alt="Hostel"></tr>
-                        <tr><img class="foto" src="./Fotos/Dormis29.jpg" alt="Hostel"></tr>
-                    </th>
-                </table>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./Fotos/Cabanas1.jpg" class="d-block w-100" alt="Cabanas1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Fotos/Cabanas3.jpg" class="d-block w-100" alt="Cabanas3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Fotos/Dormis29.jpg" class="d-block w-100" alt="Dormis29">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Fotos/Hostel-1.jpg" class="d-block w-100" alt="Hostel-1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Fotos/Hostel-8.jpg" class="d-block w-100" alt="Hostel-8">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Fotos/Hostel-9.jpg" class="d-block w-100" alt="Hostel-9">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Fotos/Privada-1.jpg" class="d-block w-100" alt="Privada-1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Fotos/Privada-3.jpg" class="d-block w-100" alt="Privada-3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
     </main>
     <footer>
         Copyright 2022 Hostel Lacar Derechos Reservados
