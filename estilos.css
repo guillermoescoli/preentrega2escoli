@@ -45,6 +45,10 @@ body {
     margin-bottom: 10px;
 }
 
+.Mapa {
+    max-width: 100%;
+}
+
 .contenedor{
     padding: 20px;
     border: 1px;
